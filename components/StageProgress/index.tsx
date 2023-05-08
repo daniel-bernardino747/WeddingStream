@@ -9,9 +9,9 @@ export function StageProgress() {
     <div className="flex items-center">
       <StageIcon stageNumber={1} inProgress={path === "/"} />
       <LineBetween />
-      <StageIcon stageNumber={2} inProgress={path === "/confirmar-presenca"} />
+      <StageIcon stageNumber={2} inProgress={path === "/convite"} />
       <LineBetween />
-      <StageIcon stageNumber={3} inProgress={path === "/presenca-confirmada"} />
+      <StageIcon stageNumber={3} inProgress={path === "/convite-confirmado"} />
     </div>
   );
 }

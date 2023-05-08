@@ -9,10 +9,7 @@ export default function RootPage() {
         <Video src={LINK_INVITE_CHILDREN} />
       </main>
 
-      <ButtonSubmit
-        path="/confirmar-presenca"
-        placeholder="Ver convite oficial"
-      />
+      <ButtonSubmit path="/convite" placeholder="Ver convite oficial" />
     </>
   );
 }
