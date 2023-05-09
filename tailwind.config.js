@@ -14,8 +14,8 @@ module.exports = {
       },
     },
     colors: {
-      "desaturated-red": "#D78989",
-      "moderate-violet": "#5B2A86",
+      "moderate-lime-green": "#55a860",
+      "dark-lime-green": "#1f662e",
       "mostly-white": "#F9F9F9",
     },
   },

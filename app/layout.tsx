@@ -18,7 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR" className="relative bg-mostly-white">
+    <html
+      lang="pt-BR"
+      className="relative bg-mostly-white h-screen w-full overflow-hidden"
+    >
       <Background />
       <body
         className={clsx(
