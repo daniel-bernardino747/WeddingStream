@@ -7,9 +7,13 @@ export function StageProgress() {
 
   return (
     <div className="flex items-center">
-      <StageIcon stageNumber={1} inProgress={path === "/"} />
+      <StageIcon stageNumber={1} inProgress={path === "/"} href="/" />
       <LineBetween />
-      <StageIcon stageNumber={2} inProgress={path === "/convite"} />
+      <StageIcon
+        stageNumber={2}
+        inProgress={path === "/convite"}
+        href="/convite"
+      />
       <LineBetween />
       <StageIcon stageNumber={3} inProgress={path === "/convite-confirmado"} />
     </div>
@@ -19,16 +23,19 @@ export function StageProgress() {
 const StageIcon = ({
   stageNumber,
   inProgress,
+  href,
 }: {
   stageNumber: number;
   inProgress: boolean;
+  href?: string;
 }) => {
   return (
-    <div
+    <a
       className={clsx(
-        "rounded-full h-8 w-8 border-2 border-moderate-lime-green flex items-center justify-center",
+        "rounded-full h-8 w-8 border-2 border-moderate-lime-green flex items-center justify-center cursor-pointer",
         { "bg-moderate-lime-green": inProgress }
       )}
+      href={href}
     >
       <p
         className={clsx("font-medium text-lg", {
@@ -38,7 +45,7 @@ const StageIcon = ({
       >
         {stageNumber}
       </p>
-    </div>
+    </a>
   );
 };
 
