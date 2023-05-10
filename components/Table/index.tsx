@@ -11,14 +11,14 @@ export function Table() {
           <tr key={key}>
             <td
               className={clsx("font-medium py-2 px-1", {
-                "border-b-[1px] border-desaturated-red": !isLastItem,
+                "border-b-[1px] border-moderate-lime-green": !isLastItem,
               })}
             >
               {key}
             </td>
             <td
               className={clsx("text-end py-2 px-1", {
-                "border-b-[1px] border-desaturated-red": !isLastItem,
+                "border-b-[1px] border-moderate-lime-green": !isLastItem,
               })}
             >
               {value}{" "}
@@ -26,7 +26,7 @@ export function Table() {
                 <a
                   target="_blank"
                   href={link}
-                  className="text-moderate-violet underline"
+                  className="text-dark-lime-green underline"
                 >
                   (Veja aqui)
                 </a>

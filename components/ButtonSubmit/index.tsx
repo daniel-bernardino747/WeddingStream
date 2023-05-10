@@ -12,7 +12,7 @@ export function ButtonSubmit({
   return (
     <button
       type="button"
-      className="font-medium bg-moderate-violet py-2 px-8 rounded-2xl text-mostly-white hover:scale-105 ease-out duration-200 mt-6 sm:mt-0"
+      className="font-medium bg-dark-lime-green py-2 px-8 rounded-2xl text-mostly-white hover:scale-105 ease-out duration-200 mt-6 sm:mt-0"
       onClick={() => router.push(path)}
     >
       {placeholder}

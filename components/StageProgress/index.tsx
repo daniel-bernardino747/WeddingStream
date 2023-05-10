@@ -26,14 +26,14 @@ const StageIcon = ({
   return (
     <div
       className={clsx(
-        "rounded-full h-8 w-8 border-2 border-desaturated-red flex items-center justify-center",
-        { "bg-desaturated-red": inProgress }
+        "rounded-full h-8 w-8 border-2 border-moderate-lime-green flex items-center justify-center",
+        { "bg-moderate-lime-green": inProgress }
       )}
     >
       <p
         className={clsx("font-medium text-lg", {
           "text-mostly-white": inProgress,
-          "text-desaturated-red": !inProgress,
+          "text-moderate-lime-green": !inProgress,
         })}
       >
         {stageNumber}
@@ -43,5 +43,5 @@ const StageIcon = ({
 };
 
 const LineBetween = () => {
-  return <div className="h-[2px] w-10 flex-grow bg-desaturated-red"></div>;
+  return <div className="h-[2px] w-10 flex-grow bg-moderate-lime-green"></div>;
 };
