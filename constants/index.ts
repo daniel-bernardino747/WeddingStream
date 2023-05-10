@@ -2,6 +2,7 @@ export const WIDTH_VIDEO_MAX = 600;
 export const HEIGHT_VIDEO_MAX = (600 * 9) / 16;
 
 export const LINK_INVITE_CHILDREN = "https://www.youtube.com/embed/SKsBMYaSfUo";
+export const LINK_INVITE_FATHER = "https://www.youtube.com/embed/3TZkEruq83M";
 export const LINK_LOCATION =
   "https://www.google.com/search?q=Fiorellino+Casa+de+Eventos&oq=Fiorellino+Casa+de+Eventos&aqs=chrome..69i57.5900j0j7&sourceid=chrome&ie=UTF-8";
 
