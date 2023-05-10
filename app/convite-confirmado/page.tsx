@@ -9,11 +9,11 @@ export default function ConfirmatedPage() {
     >
       <section className="">
         <h1 className="px-3 pt-3 font-medium text-xl text-center">
-          Agradecemos sua resposta
+          Que incrível! Que bom que vocês vão!
         </h1>
         <p className="my-3 p-3 text-center">
           Para qualquer informação adicional, fique a vontade para entrar em
-          contato com a gente.
+          contato conosco.
         </p>
       </section>
 
